@@ -1,0 +1,59 @@
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+✔ [2500/2506] Built StatementAudit.Targets (2.7s)
+ℹ [2501/2506] Built StatementAudit.Rectangle (2.2s)
+info: StatementAudit/Rectangle.lean:64:0: 'StatementAudit.count_iff_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StatementAudit/Rectangle.lean:65:0: 'StatementAudit.global_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StatementAudit/Rectangle.lean:66:0: 'StatementAudit.rectangle_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2502/2506] Built ConvexNivat (8.2s)
+info: ConvexNivat.lean:79:0: 'Nivat.convex_two_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:315:0: 'Nivat.convex_line_fit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:316:0: 'Nivat.convex_nivat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:355:0: 'Nivat.convex_two_integer_summands' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:356:0: 'Nivat.convex_nivat_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:381:0: 'Nivat.convex_nivat_real_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2504/2506] Built StatementAudit.Bridge (1.8s)
+info: StatementAudit/Bridge.lean:40:0: 'StatementAudit.order_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: StatementAudit/Bridge.lean:41:0: 'StatementAudit.convex_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [2505/2506] Built StatementAudit (1.5s)
+Build completed successfully (2506 jobs).
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+'Nivat.convex_two_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_line_fit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_nivat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_two_integer_summands' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_nivat_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_nivat_real_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+Nivat.convex_two_factors: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_line_fit: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_nivat: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_two_integer_summands: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_nivat_raw: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_nivat_real_hull: ['Classical.choice', 'Quot.sound', 'propext']
+Allowed axiom dependencies confirmed for 6 declarations.
+This screens Lean output; it does not replace kernel checking or statement inspection.
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+replaying ConvexNivat
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+'StatementAudit.count_iff_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StatementAudit.global_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StatementAudit.rectangle_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+StatementAudit.count_iff_representatives: ['Classical.choice', 'Quot.sound', 'propext']
+StatementAudit.global_iff: ['Classical.choice', 'Quot.sound', 'propext']
+StatementAudit.rectangle_checked: ['Classical.choice', 'Quot.sound', 'propext']
+Allowed axiom dependencies confirmed for 3 declarations.
+This screens Lean output; it does not replace kernel checking or statement inspection.
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+'StatementAudit.order_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StatementAudit.convex_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+StatementAudit.order_checked: ['Classical.choice', 'Quot.sound', 'propext']
+StatementAudit.convex_checked: ['Classical.choice', 'Quot.sound', 'propext']
+Allowed axiom dependencies confirmed for 2 declarations.
+This screens Lean output; it does not replace kernel checking or statement inspection.
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+replaying StatementAudit.Targets
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+replaying StatementAudit.Rectangle
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+replaying StatementAudit.Bridge
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+Audited 24 named local declarations. Checked 2888 direct dependency edges and the convex theorem's dependency closure.

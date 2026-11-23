@@ -1,0 +1,26 @@
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+ℹ [2499/2500] Built ConvexNivat (5.9s)
+info: ConvexNivat.lean:77:0: 'Nivat.convex_two_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:312:0: 'Nivat.convex_line_fit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:313:0: 'Nivat.convex_nivat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:350:0: 'Nivat.convex_two_integer_summands' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:351:0: 'Nivat.convex_nivat_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConvexNivat.lean:375:0: 'Nivat.convex_nivat_real_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2500 jobs).
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+'Nivat.convex_two_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_line_fit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_nivat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_two_integer_summands' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_nivat_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nivat.convex_nivat_real_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+Nivat.convex_two_factors: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_line_fit: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_nivat: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_two_integer_summands: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_nivat_raw: ['Classical.choice', 'Quot.sound', 'propext']
+Nivat.convex_nivat_real_hull: ['Classical.choice', 'Quot.sound', 'propext']
+Allowed axiom dependencies confirmed for 6 declarations.
+This screens Lean output; it does not replace kernel checking or statement inspection.
+warning: nivat: repository '/workspace/scratch/e6bb9056c30e/convex-nivat/.lake/packages/nivat' has local changes
+replaying ConvexNivat
