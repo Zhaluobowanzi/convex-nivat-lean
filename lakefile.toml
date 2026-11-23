@@ -1,0 +1,18 @@
+name = "convex-nivat"
+version = "0.1.0"
+defaultTargets = ["ConvexNivat", "StatementAudit"]
+
+[leanOptions]
+autoImplicit = false
+warningAsError = true
+
+[[require]]
+name = "nivat"
+git = "https://github.com/boonsuan/nivat.git"
+rev = "4e3614024227acd273c3e8ab41df92c2709e5ab0"
+
+[[lean_lib]]
+name = "ConvexNivat"
+
+[[lean_lib]]
+name = "StatementAudit"
