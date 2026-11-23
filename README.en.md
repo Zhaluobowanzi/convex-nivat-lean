@@ -22,11 +22,15 @@ The same conclusion holds for any finite lattice-convex window, meaning the set 
 
 ### What did the extension add?
 
+Reading Ho’s Lean code, we noticed a lemma we could reuse. Theorem 5.1 in the manuscript takes a rectangle, but the lemma inside its proof already allows any finite lattice-convex window once the first of the two difference directions is horizontal. Following Ho’s change of basis, we transform the original window and the configuration together, apply his lemma directly, and carry the period back to the original coordinates. [Ho’s lattice-convex window lemma](https://github.com/boonsuan/nivat/blob/4e3614024227acd273c3e8ab41df92c2709e5ab0/Nivat/TwoFactors/Main.lean#L105)
+
 Ho had already proved a counting lemma for finite windows. To use it to shrink a window such as a triangle, we need to answer a geometric question. If we apply Ho’s line filter to a weighted pattern and the entire output lies inside the window, where could the original pattern have been supported? Positive and negative coefficients can cancel, so the output need not reveal how far the pattern extended.
 
 Codex observed that Ho’s filter acts along a line. After a change of lattice coordinates makes that line horizontal, the leftmost nonzero coefficient in each occupied row and the filter’s leftmost nonzero coefficient are the only pair that can contribute to the leftmost output position. Their product survives. The same argument works on the right. Ho already used this endpoint argument for rectangles. Applying it row by row and using the fact that a convex window contains all lattice points between the endpoints of a row identifies exactly which positions survive when the window shrinks. The smaller window is still lattice-convex and has strictly fewer lattice points, so the induction can continue. [Ho’s rectangle support proof](https://github.com/boonsuan/nivat/blob/4e3614024227acd273c3e8ab41df92c2709e5ab0/Nivat/Algebra/RectangleSupport.lean)
 
 This extension also implies Conjecture 1.11 in version 4 of Colle’s preprint. If a finite-valued integer configuration requires at least two summands in a minimal decomposition into integer-valued periodic configurations, then the number of patterns on every finite lattice-convex window strictly exceeds its number of lattice points. [Colle’s preprint](https://arxiv.org/pdf/1909.08195) · [Proof steps and sources (in Chinese)](PROVENANCE.zh.md)
+
+[Chinese proof PDF](docs/convex-nivat-zh-notes.pdf) · [English proof PDF](docs/convex-nivat-en-notes.pdf)
 
 ## Theorem
 
